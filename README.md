@@ -16,12 +16,12 @@ This script builds the ziti-edge-tunnel for teltonika devices.
 
 ### teltonika SDK compile
 
-- [teltonika SDK](https://wiki.teltonika-networks.com/view/Software_Development_Kit) can be downloaded here, the script was tested with **RUT9_R_00.07.05**. 
+- [teltonika SDK](https://wiki.teltonika-networks.com/view/Software_Development_Kit) can be downloaded here, the build script was tested with **RUT9_R_00.07.05** SDK. 
 - Use Ubuntu 20.04 OS (or 22.04 OS), don't use 18.04 as suggested in the instructions.
-- Create a working direcotr, this will be our **ZT_WORKDIR** definition.
-- Download extract the SDK.
-- Follow [teltonika compile instruction](https://wiki.teltonika-networks.com/view/RUTOS_Software_Development_Kit_instructions) to **Compiling a standard firmware** 
-- At the end of successful compiler, you should directory should look like this:
+- Create a working direcotry, this will be our **ZT_WORKDIR** definition.
+- Download and extract the SDK.
+- Follow [teltonika compile instruction](https://wiki.teltonika-networks.com/view/RUTOS_Software_Development_Kit_instructions) to "**Compiling a standard firmware**".
+- At the end of the successful compile, your directory should look like this:
 ```
 $ pwd
 /home/ubuntu/rutos-ath79-rut9-gpl
